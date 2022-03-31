@@ -1,0 +1,21 @@
+.background{
+    -fx-background-color: #005A8F;
+}
+
+.combo{
+    -fx-background-radius: 25;
+    -fx-background-color: #fff;
+}
+
+.area .content{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+.l{
+}
+
+
+
+
+

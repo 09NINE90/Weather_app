@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="600.0"  xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@style.css" styleClass="background" fx:controller="com.example.weather.Weather">
+   <children>
+      <TextArea fx:id="textArea" layoutX="286.0" layoutY="24.0" prefHeight="367.0" styleClass="area" prefWidth="265.0" >
+         <font>
+            <Font name="Calibri Light" size="19.0" />
+         </font></TextArea>
+      <ComboBox fx:id="comboCity" layoutX="49.0" layoutY="75.0" styleClass="combo" prefHeight="25.0" prefWidth="202.0" />
+      <Label layoutX="49.0" layoutY="42.0"  styleClass="l" text="Погода в городе:" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label" alignment="TOP_LEFT"  layoutX="44.0" layoutY="197.0" prefHeight="144.0" prefWidth="213.0" text="Пт 18 мар День 0°" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="48.0" />
+         </font></Label>
+      <ImageView fx:id="imgView" fitHeight="81.0" fitWidth="155.0" layoutX="73.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
